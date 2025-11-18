@@ -10,7 +10,7 @@
 # 📊 GitHub Stats:
 
 ![](https://nirzak-streak-stats.vercel.app/?user=sheinafathurr1&theme=neon&hide_border=true)<br/>
-![Statistik GitHub](https://github-readme-stats.vercel.app/api?username=sheinafathurr1&show_icons=true&theme=neon&hide_border=true&count_private=true)
+![Statistik GitHub](https://github-readme-stats.vercel.app/api?username=sheinafathurr1&show_icons=true&theme=neon&hide_border=true&count_private=true)<br/>
 ![Bahasa Teratas](https://github-readme-stats.vercel.app/api/top-langs/?username=sheinafathurr1&layout=compact&theme=neon&hide_border=true)
 
 ### ✍️ Random Dev Quote
