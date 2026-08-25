@@ -11,9 +11,8 @@ import re
 import sys
 import textwrap
 import urllib.request
-from datetime import datetime, timezone
 
-from theme import FONT, esc, get_theme
+from theme import FONT, esc, get_theme, relative_time
 
 USERNAME = os.environ.get("STATS_USERNAME", "sheinafathurr1")
 TOKEN = os.environ.get("GITHUB_TOKEN")
@@ -32,19 +31,6 @@ def get(url):
     req = urllib.request.Request(url, headers=HEADERS)
     with urllib.request.urlopen(req, timeout=30) as resp:
         return json.loads(resp.read())
-
-
-def relative_time(iso_str):
-    then = datetime.strptime(iso_str, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
-    delta = datetime.now(timezone.utc) - then
-    days = delta.days
-    if days < 1:
-        return "today"
-    if days < 30:
-        return f"{days}d ago"
-    if days < 365:
-        return f"{days // 30}mo ago"
-    return f"{days // 365}y ago"
 
 
 def wrap_description(text, width=44, max_lines=2):
