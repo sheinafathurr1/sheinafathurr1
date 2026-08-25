@@ -1,0 +1,32 @@
+name: Generate Stats Card
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STATS_USERNAME: sheinafathurr1
+        run: python3 scripts/generate_stats.py
+
+      - name: Commit stats.svg
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats.svg
+          git diff --staged --quiet && exit 0
+          git commit -m "Update stats.svg [skip ci]"
+          git push

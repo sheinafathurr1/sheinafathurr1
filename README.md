@@ -92,12 +92,9 @@ off_duty:  Basketball courts & sneaker hunting
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=sheinafathurr1&show_icons=true&count_private=true&hide_border=true&bg_color=0d0d0d&title_color=ffffff&text_color=b3b3b3&icon_color=ffffff&border_color=2b2b2b" alt="GitHub Stats" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sheinafathurr1&layout=compact&hide_border=true&bg_color=0d0d0d&title_color=ffffff&text_color=b3b3b3&border_color=2b2b2b" alt="Top Languages" width="38%" />
+<img src="stats.svg" alt="GitHub Stats" width="90%" />
 
 <img src="https://streak-stats.demolab.com/?user=sheinafathurr1&hide_border=true&background=0D0D0D&border=2B2B2B&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&currStreakNum=FFFFFF&sideLabels=B3B3B3&sideNums=FFFFFF&dates=808080" alt="GitHub Streak" width="60%" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=sheinafathurr1&theme=flat&no-frame=true&no-bg=true&row=1&column=7" alt="Trophies" width="90%" />
 
 </div>
 
