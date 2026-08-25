@@ -34,11 +34,17 @@ jobs:
           STATS_USERNAME: sheinafathurr1
         run: python3 scripts/generate_activity.py
 
+      - name: Generate achievement badges
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STATS_USERNAME: sheinafathurr1
+        run: python3 scripts/generate_achievements.py
+
       - name: Commit generated SVGs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add stats-dark.svg stats-light.svg activity-dark.svg activity-light.svg projects/
+          git add stats-dark.svg stats-light.svg activity-dark.svg activity-light.svg achievements-dark.svg achievements-light.svg projects/
           git diff --staged --quiet && exit 0
-          git commit -m "Update generated stats, activity chart, and project cards [skip ci]"
+          git commit -m "Update generated stats, activity chart, achievements, and project cards [skip ci]"
           git push

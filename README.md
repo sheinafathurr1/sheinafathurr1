@@ -16,7 +16,15 @@
 
 </div>
 
-<br/>
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="divider-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="divider-light.svg" />
+  <img src="divider-dark.svg" alt="" width="100%" />
+</picture>
+
+</div>
 
 ## &nbsp;◆&nbsp; About Me
 
@@ -24,11 +32,20 @@
 role:      Web Developer
 focus:     Docker & Microservices
 mindset:   Lifelong Learner
+currently: Building webtrain, polishing portfolio
 contact:   sheinafathur@gmail.com
 off_duty:  Basketball courts & sneaker hunting
 ```
 
-<br/>
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="divider-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="divider-light.svg" />
+  <img src="divider-dark.svg" alt="" width="100%" />
+</picture>
+
+</div>
 
 ## &nbsp;◆&nbsp; Tech Stack
 
@@ -90,7 +107,15 @@ off_duty:  Basketball courts & sneaker hunting
 </tr>
 </table>
 
-<br/>
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="divider-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="divider-light.svg" />
+  <img src="divider-dark.svg" alt="" width="100%" />
+</picture>
+
+</div>
 
 ## &nbsp;◆&nbsp; GitHub Stats
 
@@ -100,6 +125,12 @@ off_duty:  Basketball courts & sneaker hunting
   <source media="(prefers-color-scheme: dark)" srcset="stats-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="stats-light.svg" />
   <img src="stats-dark.svg" alt="GitHub Stats" width="90%" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="achievements-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="achievements-light.svg" />
+  <img src="achievements-dark.svg" alt="Achievements" width="90%" />
 </picture>
 
 <picture>
@@ -116,7 +147,15 @@ off_duty:  Basketball courts & sneaker hunting
 
 </div>
 
-<br/>
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="divider-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="divider-light.svg" />
+  <img src="divider-dark.svg" alt="" width="100%" />
+</picture>
+
+</div>
 
 ## &nbsp;◆&nbsp; Contribution Snake
 
@@ -130,7 +169,15 @@ off_duty:  Basketball courts & sneaker hunting
 
 </div>
 
-<br/>
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="divider-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="divider-light.svg" />
+  <img src="divider-dark.svg" alt="" width="100%" />
+</picture>
+
+</div>
 
 ## &nbsp;◆&nbsp; Pinned Projects
 
@@ -160,7 +207,15 @@ off_duty:  Basketball courts & sneaker hunting
 
 </div>
 
-<br/>
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="divider-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="divider-light.svg" />
+  <img src="divider-dark.svg" alt="" width="100%" />
+</picture>
+
+</div>
 
 <div align="center">
 
@@ -177,5 +232,11 @@ off_duty:  Basketball courts & sneaker hunting
 <div align="center">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=sheinafathurr1&style=flat-square&color=000000&label=PROFILE+VIEWS)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="footer-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="footer-light.svg" />
+  <img src="footer-dark.svg" alt="Thanks for stopping by" width="100%" />
+</picture>
 
 </div>

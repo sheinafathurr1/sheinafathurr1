@@ -16,16 +16,16 @@
 <line x1="32" y1="190" x2="768" y2="190" stroke="#d8d8d8" stroke-width="1" />
 <text x="32" y="216" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#0d0d0d">Top Languages</text>
 <rect x="32" y="232" width="736" height="10" rx="5" fill="#e9e9e9" />
-<rect x="32.0" y="232" width="429.5" height="10" fill="#0d0d0d" fill-opacity="1.00" />
-<rect x="461.5" y="232" width="253.8" height="10" fill="#0d0d0d" fill-opacity="0.86" />
-<rect x="715.3" y="232" width="18.0" height="10" fill="#0d0d0d" fill-opacity="0.72" />
-<rect x="733.3" y="232" width="16.4" height="10" fill="#0d0d0d" fill-opacity="0.58" />
-<rect x="749.7" y="232" width="9.0" height="10" fill="#0d0d0d" fill-opacity="0.44" />
-<rect x="758.7" y="232" width="4.9" height="10" fill="#0d0d0d" fill-opacity="0.30" />
+<rect x="32.0" y="232" width="428.1" height="10" fill="#0d0d0d" fill-opacity="1.00" />
+<rect x="460.1" y="232" width="252.9" height="10" fill="#0d0d0d" fill-opacity="0.86" />
+<rect x="713.0" y="232" width="17.9" height="10" fill="#0d0d0d" fill-opacity="0.72" />
+<rect x="730.9" y="232" width="16.3" height="10" fill="#0d0d0d" fill-opacity="0.58" />
+<rect x="747.2" y="232" width="9.0" height="10" fill="#0d0d0d" fill-opacity="0.44" />
+<rect x="756.2" y="232" width="7.4" height="10" fill="#0d0d0d" fill-opacity="0.30" />
 <circle cx="38.0" cy="262" r="5" fill="#0d0d0d" fill-opacity="1.00" />
-<text x="50.0" y="266" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#4d4d4d">Blade 58.4%</text>
+<text x="50.0" y="266" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#4d4d4d">Blade 58.2%</text>
 <circle cx="283.33333333333337" cy="262" r="5" fill="#0d0d0d" fill-opacity="0.86" />
-<text x="295.33333333333337" y="266" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#4d4d4d">PHP 34.5%</text>
+<text x="295.33333333333337" y="266" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#4d4d4d">PHP 34.4%</text>
 <circle cx="528.6666666666667" cy="262" r="5" fill="#0d0d0d" fill-opacity="0.72" />
 <text x="540.6666666666667" y="266" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#4d4d4d">TeX 2.4%</text>
 <circle cx="38.0" cy="288" r="5" fill="#0d0d0d" fill-opacity="0.58" />
@@ -33,5 +33,5 @@
 <circle cx="283.33333333333337" cy="288" r="5" fill="#0d0d0d" fill-opacity="0.44" />
 <text x="295.33333333333337" y="292" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#4d4d4d">CSS 1.2%</text>
 <circle cx="528.6666666666667" cy="288" r="5" fill="#0d0d0d" fill-opacity="0.30" />
-<text x="540.6666666666667" y="292" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#4d4d4d">Python 0.7%</text>
+<text x="540.6666666666667" y="292" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#4d4d4d">Python 1.0%</text>
 </svg>
