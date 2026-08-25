@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="banner.svg" alt="Sheina Fathur" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg" />
+  <img src="banner-dark.svg" alt="Sheina Fathur" width="100%" />
+</picture>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=A6A6A6&center=true&vCenter=true&width=600&lines=Building+things+for+the+web...;Always+learning%2C+always+shipping;Docker+%2B+Microservices+enthusiast;Basketball+%26+sneaker+hunter+on+the+side" alt="typing" />
 
@@ -92,9 +96,23 @@ off_duty:  Basketball courts & sneaker hunting
 
 <div align="center">
 
-<img src="stats.svg" alt="GitHub Stats" width="90%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="stats-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="stats-light.svg" />
+  <img src="stats-dark.svg" alt="GitHub Stats" width="90%" />
+</picture>
 
-<img src="https://streak-stats.demolab.com/?user=sheinafathurr1&hide_border=true&background=0D0D0D&border=2B2B2B&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&currStreakNum=FFFFFF&sideLabels=B3B3B3&sideNums=FFFFFF&dates=808080" alt="GitHub Streak" width="60%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=sheinafathurr1&hide_border=true&background=0D0D0D&border=2B2B2B&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&currStreakNum=FFFFFF&sideLabels=B3B3B3&sideNums=FFFFFF&dates=808080" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=sheinafathurr1&hide_border=true&background=FFFFFF&border=D8D8D8&ring=0D0D0D&fire=0D0D0D&currStreakLabel=0D0D0D&currStreakNum=0D0D0D&sideLabels=4D4D4D&sideNums=0D0D0D&dates=8A8A8A" />
+  <img src="https://streak-stats.demolab.com/?user=sheinafathurr1&hide_border=true&background=0D0D0D&border=2B2B2B&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&currStreakNum=FFFFFF&sideLabels=B3B3B3&sideNums=FFFFFF&dates=808080" alt="GitHub Streak" width="60%" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="activity-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="activity-light.svg" />
+  <img src="activity-dark.svg" alt="Commit Activity" width="90%" />
+</picture>
 
 </div>
 
@@ -118,11 +136,27 @@ off_duty:  Basketball courts & sneaker hunting
 
 <div align="center">
 
-<a href="https://github.com/sheinafathurr1/portfolio"><img src="projects/portfolio.svg" alt="portfolio" width="48%" /></a>
-<a href="https://github.com/sheinafathurr1/e-football"><img src="projects/e-football.svg" alt="e-football" width="48%" /></a>
+<a href="https://github.com/sheinafathurr1/portfolio"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="projects/portfolio-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="projects/portfolio-light.svg" />
+  <img src="projects/portfolio-dark.svg" alt="portfolio" width="48%" />
+</picture></a>
+<a href="https://github.com/sheinafathurr1/e-football"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="projects/e-football-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="projects/e-football-light.svg" />
+  <img src="projects/e-football-dark.svg" alt="e-football" width="48%" />
+</picture></a>
 <br/>
-<a href="https://github.com/sheinafathurr1/ideahub"><img src="projects/ideahub.svg" alt="ideahub" width="48%" /></a>
-<a href="https://github.com/sheinafathurr1/webtrain"><img src="projects/webtrain.svg" alt="webtrain" width="48%" /></a>
+<a href="https://github.com/sheinafathurr1/ideahub"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="projects/ideahub-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="projects/ideahub-light.svg" />
+  <img src="projects/ideahub-dark.svg" alt="ideahub" width="48%" />
+</picture></a>
+<a href="https://github.com/sheinafathurr1/webtrain"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="projects/webtrain-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="projects/webtrain-light.svg" />
+  <img src="projects/webtrain-dark.svg" alt="webtrain" width="48%" />
+</picture></a>
 
 </div>
 
@@ -130,7 +164,11 @@ off_duty:  Basketball courts & sneaker hunting
 
 <div align="center">
 
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="quote" />
+</picture>
 
 </div>
 
