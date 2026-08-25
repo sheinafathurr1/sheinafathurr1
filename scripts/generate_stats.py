@@ -5,11 +5,16 @@ Plain <rect>/<text> only (no <foreignObject>), so it renders correctly
 when embedded via <img> in a GitHub README, unlike HTML-in-SVG generators.
 Uses the workflow's own GITHUB_TOKEN, so it isn't subject to the shared
 rate limits that third-party public stats widgets run into.
+
+Emits one file per theme (stats-dark.svg / stats-light.svg) so the
+README can switch between them with <picture prefers-color-scheme>.
 """
 import json
 import os
 import sys
 import urllib.request
+
+from theme import FONT, esc, get_theme
 
 USERNAME = os.environ.get("STATS_USERNAME", "sheinafathurr1")
 TOKEN = os.environ.get("GITHUB_TOKEN")
@@ -66,41 +71,24 @@ def main():
     total_lang_bytes = sum(lang_bytes.values()) or 1
     top_langs = sorted(lang_bytes.items(), key=lambda kv: kv[1], reverse=True)[:6]
 
-    svg = render_svg(
-        stats=[
-            ("Public Repos", public_repos),
-            ("Followers", followers),
-            ("Total Stars", total_stars),
-            ("Total Forks", total_forks),
-        ],
-        languages=[(name, count / total_lang_bytes) for name, count in top_langs],
-    )
+    stats = [
+        ("Public Repos", public_repos),
+        ("Followers", followers),
+        ("Total Stars", total_stars),
+        ("Total Forks", total_forks),
+    ]
+    languages = [(name, count / total_lang_bytes) for name, count in top_langs]
 
-    with open("stats.svg", "w") as f:
-        f.write(svg)
-
-
-def esc(text):
-    return (
-        str(text)
-        .replace("&", "&amp;")
-        .replace("<", "&lt;")
-        .replace(">", "&gt;")
-    )
+    for theme_name in ("dark", "light"):
+        svg = render_svg(stats=stats, languages=languages, theme_name=theme_name)
+        with open(f"stats-{theme_name}.svg", "w") as f:
+            f.write(svg)
 
 
-def render_svg(stats, languages):
+def render_svg(stats, languages, theme_name="dark"):
+    theme = get_theme(theme_name)
     width = 800
     height = 300
-    bg = "#0d0d0d"
-    border = "#2b2b2b"
-    title_color = "#ffffff"
-    text_color = "#b3b3b3"
-    value_color = "#ffffff"
-    bar_track = "#1f1f1f"
-    bar_fill = "#ffffff"
-
-    font = 'font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif"'
 
     parts = []
     parts.append(
@@ -108,32 +96,32 @@ def render_svg(stats, languages):
     )
     parts.append(
         f'<rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="12" '
-        f'fill="{bg}" stroke="{border}" stroke-width="1" />'
+        f'fill="{theme["bg"]}" stroke="{theme["border"]}" stroke-width="1" />'
     )
     parts.append(
-        f'<text x="32" y="42" {font} font-size="18" font-weight="600" fill="{title_color}">GitHub Stats</text>'
+        f'<text x="32" y="42" {FONT} font-size="18" font-weight="600" fill="{theme["title"]}">GitHub Stats</text>'
     )
-    parts.append(f'<line x1="32" y1="58" x2="{width - 32}" y2="58" stroke="{border}" stroke-width="1" />')
+    parts.append(f'<line x1="32" y1="58" x2="{width - 32}" y2="58" stroke="{theme["border"]}" stroke-width="1" />')
 
     # Stat boxes
     box_w = (width - 64) / len(stats)
     for i, (label, value) in enumerate(stats):
         cx = 32 + box_w * i + box_w / 2
         parts.append(
-            f'<text x="{cx:.1f}" y="130" {font} font-size="30" font-weight="700" '
-            f'fill="{value_color}" text-anchor="middle">{esc(value)}</text>'
+            f'<text x="{cx:.1f}" y="130" {FONT} font-size="30" font-weight="700" '
+            f'fill="{theme["title"]}" text-anchor="middle">{esc(value)}</text>'
         )
         parts.append(
-            f'<text x="{cx:.1f}" y="156" {font} font-size="13" '
-            f'fill="{text_color}" text-anchor="middle">{esc(label)}</text>'
+            f'<text x="{cx:.1f}" y="156" {FONT} font-size="13" '
+            f'fill="{theme["text"]}" text-anchor="middle">{esc(label)}</text>'
         )
         if i > 0:
             x = 32 + box_w * i
-            parts.append(f'<line x1="{x:.1f}" y1="90" x2="{x:.1f}" y2="170" stroke="{border}" stroke-width="1" />')
+            parts.append(f'<line x1="{x:.1f}" y1="90" x2="{x:.1f}" y2="170" stroke="{theme["border"]}" stroke-width="1" />')
 
-    parts.append(f'<line x1="32" y1="190" x2="{width - 32}" y2="190" stroke="{border}" stroke-width="1" />')
+    parts.append(f'<line x1="32" y1="190" x2="{width - 32}" y2="190" stroke="{theme["border"]}" stroke-width="1" />')
     parts.append(
-        f'<text x="32" y="216" {font} font-size="14" font-weight="600" fill="{title_color}">Top Languages</text>'
+        f'<text x="32" y="216" {FONT} font-size="14" font-weight="600" fill="{theme["title"]}">Top Languages</text>'
     )
 
     # Language bars
@@ -143,13 +131,13 @@ def render_svg(stats, languages):
     bar_h = 10
     if languages:
         x = bar_x
-        parts.append(f'<rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="{bar_h}" rx="5" fill="{bar_track}" />')
+        parts.append(f'<rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="{bar_h}" rx="5" fill="{theme["bar_track"]}" />')
         for i, (name, pct) in enumerate(languages):
             seg_w = max(bar_w * pct, 2)
             opacity = max(1.0 - i * 0.14, 0.28)
             parts.append(
                 f'<rect x="{x:.1f}" y="{bar_y}" width="{seg_w:.1f}" height="{bar_h}" '
-                f'fill="{bar_fill}" fill-opacity="{opacity:.2f}" />'
+                f'fill="{theme["bar_fill"]}" fill-opacity="{opacity:.2f}" />'
             )
             x += seg_w
 
@@ -161,14 +149,14 @@ def render_svg(stats, languages):
             lx = bar_x + col * col_w
             ly = legend_y + row * 26
             opacity = max(1.0 - i * 0.14, 0.28)
-            parts.append(f'<circle cx="{lx + 6}" cy="{ly - 4}" r="5" fill="{bar_fill}" fill-opacity="{opacity:.2f}" />')
+            parts.append(f'<circle cx="{lx + 6}" cy="{ly - 4}" r="5" fill="{theme["bar_fill"]}" fill-opacity="{opacity:.2f}" />')
             parts.append(
-                f'<text x="{lx + 18}" y="{ly}" {font} font-size="12" fill="{text_color}">'
+                f'<text x="{lx + 18}" y="{ly}" {FONT} font-size="12" fill="{theme["text"]}">'
                 f'{esc(name)} {pct * 100:.1f}%</text>'
             )
     else:
         parts.append(
-            f'<text x="{bar_x}" y="{bar_y + 10}" {font} font-size="12" fill="{text_color}">No language data</text>'
+            f'<text x="{bar_x}" y="{bar_y + 10}" {FONT} font-size="12" fill="{theme["text"]}">No language data</text>'
         )
 
     parts.append("</svg>")
