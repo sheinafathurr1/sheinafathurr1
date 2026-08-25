@@ -39,6 +39,10 @@ def describe(event):
     if kind == "PushEvent":
         payload = event["payload"]
         n = payload.get("size", len(payload.get("commits", [])))
+        if n == 0:
+            # A merge/ref update with no new distinct commits (e.g. a
+            # squash or fast-forward merge) still fires a PushEvent.
+            return f"Updated {repo}"
         commit_word = "commit" if n == 1 else "commits"
         return f"Pushed {n} {commit_word} to {repo}"
 
