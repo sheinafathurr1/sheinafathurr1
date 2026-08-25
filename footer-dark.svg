@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="120" viewBox="0 0 900 120">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#242424" />
+      <stop offset="100%" stop-color="#0a0a0a" />
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.07" />
+    </pattern>
+  </defs>
+
+  <rect width="900" height="120" fill="url(#bg)" />
+  <rect width="900" height="120" fill="url(#dots)" />
+  <rect x="0.5" y="0.5" width="899" height="119" fill="none" stroke="#2b2b2b" stroke-width="1" />
+
+  <path d="M28 28 L28 18 L38 18" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.5" />
+  <path d="M872 28 L872 18 L862 18" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.5" />
+  <path d="M28 92 L28 102 L38 102" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.5" />
+  <path d="M872 92 L872 102 L862 102" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.5" />
+
+  <text x="450" y="58" text-anchor="middle" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#ffffff" letter-spacing="3">THANKS FOR STOPPING BY</text>
+  <text x="450" y="82" text-anchor="middle" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a" letter-spacing="1">Always open to a good conversation about code, coffee, or basketball</text>
+</svg>
