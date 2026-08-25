@@ -37,7 +37,8 @@ def describe(event):
     repo = event["repo"]["name"]
 
     if kind == "PushEvent":
-        n = len(event["payload"].get("commits", []))
+        payload = event["payload"]
+        n = payload.get("size", len(payload.get("commits", [])))
         commit_word = "commit" if n == 1 else "commits"
         return f"Pushed {n} {commit_word} to {repo}"
 

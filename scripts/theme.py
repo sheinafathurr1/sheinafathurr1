@@ -50,7 +50,10 @@ def relative_time(iso_str):
     days = delta.days
     if days < 1:
         hours = delta.seconds // 3600
-        return f"{hours}h ago" if hours else "just now"
+        if hours:
+            return f"{hours}h ago"
+        minutes = delta.seconds // 60
+        return f"{minutes}m ago" if minutes else "just now"
     if days < 30:
         return f"{days}d ago"
     if days < 365:
