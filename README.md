@@ -145,6 +145,12 @@ off_duty:  Basketball courts & sneaker hunting
   <img src="activity-dark.svg" alt="Commit Activity" width="90%" />
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="activity-feed-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="activity-feed-light.svg" />
+  <img src="activity-feed-dark.svg" alt="Recent Activity" width="90%" />
+</picture>
+
 </div>
 
 <div align="center">

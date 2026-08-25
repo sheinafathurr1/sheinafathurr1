@@ -3,6 +3,7 @@
 Keeping colors in one place so stats.svg, the project cards, and the
 activity graph always stay visually consistent across dark/light.
 """
+from datetime import datetime, timezone
 
 FONT = 'font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif"'
 
@@ -41,3 +42,17 @@ def esc(text):
         .replace("<", "&lt;")
         .replace(">", "&gt;")
     )
+
+
+def relative_time(iso_str):
+    then = datetime.strptime(iso_str, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+    delta = datetime.now(timezone.utc) - then
+    days = delta.days
+    if days < 1:
+        hours = delta.seconds // 3600
+        return f"{hours}h ago" if hours else "just now"
+    if days < 30:
+        return f"{days}d ago"
+    if days < 365:
+        return f"{days // 30}mo ago"
+    return f"{days // 365}y ago"
