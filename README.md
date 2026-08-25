@@ -1,6 +1,6 @@
 <div align="center">
 
-# SHEINA FATHUR
+<img src="banner.svg" alt="Sheina Fathur" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=A6A6A6&center=true&vCenter=true&width=600&lines=Building+things+for+the+web...;Always+learning%2C+always+shipping;Docker+%2B+Microservices+enthusiast;Basketball+%26+sneaker+hunter+on+the+side" alt="typing" />
 
@@ -116,12 +116,15 @@ off_duty:  Basketball courts & sneaker hunting
 
 ## &nbsp;◆&nbsp; Pinned Projects
 
-| Project | Stack | Description |
-| :-- | :-- | :-- |
-| [**portfolio**](https://github.com/sheinafathurr1/portfolio) | ![Vue](https://img.shields.io/badge/Vue-000000?style=flat-square&logo=vuedotjs&logoColor=white) | Personal portfolio site |
-| [**e-football**](https://github.com/sheinafathurr1/e-football) | ![PHP](https://img.shields.io/badge/PHP-000000?style=flat-square&logo=php&logoColor=white) | Football match tracker |
-| [**ideahub**](https://github.com/sheinafathurr1/ideahub) | ![Laravel](https://img.shields.io/badge/Laravel-000000?style=flat-square&logo=laravel&logoColor=white) | Idea management app |
-| [**webtrain**](https://github.com/sheinafathurr1/webtrain) | ![Laravel](https://img.shields.io/badge/Laravel-000000?style=flat-square&logo=laravel&logoColor=white) | Web training project |
+<div align="center">
+
+<a href="https://github.com/sheinafathurr1/portfolio"><img src="projects/portfolio.svg" alt="portfolio" width="48%" /></a>
+<a href="https://github.com/sheinafathurr1/e-football"><img src="projects/e-football.svg" alt="e-football" width="48%" /></a>
+<br/>
+<a href="https://github.com/sheinafathurr1/ideahub"><img src="projects/ideahub.svg" alt="ideahub" width="48%" /></a>
+<a href="https://github.com/sheinafathurr1/webtrain"><img src="projects/webtrain.svg" alt="webtrain" width="48%" /></a>
+
+</div>
 
 <br/>
 
