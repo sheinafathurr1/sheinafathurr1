@@ -22,11 +22,17 @@ jobs:
           STATS_USERNAME: sheinafathurr1
         run: python3 scripts/generate_stats.py
 
-      - name: Commit stats.svg
+      - name: Generate pinned project cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STATS_USERNAME: sheinafathurr1
+        run: python3 scripts/generate_projects.py
+
+      - name: Commit generated SVGs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add stats.svg
+          git add stats.svg projects/
           git diff --staged --quiet && exit 0
-          git commit -m "Update stats.svg [skip ci]"
+          git commit -m "Update generated stats and project cards [skip ci]"
           git push
