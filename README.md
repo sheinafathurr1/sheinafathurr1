@@ -148,7 +148,9 @@ off_duty:  Basketball courts & sneaker hunting
 
 <div align="center">
 
-[![Visitor Count](https://visitcount.itsvg.in/api?id=sheinafathurr1&icon=5&color=10)](https://visitcount.itsvg.in)
+[![Visitor Count](https://visitcount.itsvg.in/api?id=sheinafathurr1&icon=0&color=0)](https://visitcount.itsvg.in)
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:434343,100:0d0d0d&height=100&section=footer" width="100%" alt="footer" />
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:434343,100:0d0d0d&height=100&section=footer" width="100%" alt="footer" />
 
