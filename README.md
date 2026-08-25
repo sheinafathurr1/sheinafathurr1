@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,100:434343&height=200&section=header&text=Sheina%20Fathur&fontSize=60&fontColor=ffffff&fontAlignY=40&desc=Web%20Developer%20%E2%80%A2%20Docker%20%26%20Microservices%20Enthusiast&descAlignY=62&descSize=18" width="100%" alt="header" />
+# SHEINA FATHUR
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=A6A6A6&center=true&vCenter=true&width=600&lines=Building+things+for+the+web...;Always+learning%2C+always+shipping;Docker+%2B+Microservices+enthusiast;Basketball+%26+sneaker+hunter+on+the+side" alt="typing" />
 
@@ -92,12 +92,9 @@ off_duty:  Basketball courts & sneaker hunting
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=sheinafathurr1&show_icons=true&count_private=true&hide_border=true&bg_color=0d0d0d&title_color=ffffff&text_color=b3b3b3&icon_color=ffffff&border_color=2b2b2b" alt="GitHub Stats" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sheinafathurr1&layout=compact&hide_border=true&bg_color=0d0d0d&title_color=ffffff&text_color=b3b3b3&border_color=2b2b2b" alt="Top Languages" width="38%" />
-
 <img src="https://streak-stats.demolab.com/?user=sheinafathurr1&hide_border=true&background=0D0D0D&border=2B2B2B&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&currStreakNum=FFFFFF&sideLabels=B3B3B3&sideNums=FFFFFF&dates=808080" alt="GitHub Streak" width="60%" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=sheinafathurr1&theme=flat&no-frame=true&no-bg=true&row=1&column=7" alt="Trophies" width="90%" />
+<img src="metrics.svg" alt="GitHub Metrics" width="100%" />
 
 </div>
 
@@ -119,22 +116,12 @@ off_duty:  Basketball courts & sneaker hunting
 
 ## &nbsp;◆&nbsp; Pinned Projects
 
-<div align="center">
-
-<a href="https://github.com/sheinafathurr1/portfolio">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sheinafathurr1&repo=portfolio&hide_border=true&bg_color=0d0d0d&title_color=ffffff&text_color=b3b3b3&icon_color=ffffff&border_color=2b2b2b" width="46%" alt="portfolio" />
-</a>
-<a href="https://github.com/sheinafathurr1/e-football">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sheinafathurr1&repo=e-football&hide_border=true&bg_color=0d0d0d&title_color=ffffff&text_color=b3b3b3&icon_color=ffffff&border_color=2b2b2b" width="46%" alt="e-football" />
-</a>
-<a href="https://github.com/sheinafathurr1/ideahub">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sheinafathurr1&repo=ideahub&hide_border=true&bg_color=0d0d0d&title_color=ffffff&text_color=b3b3b3&icon_color=ffffff&border_color=2b2b2b" width="46%" alt="ideahub" />
-</a>
-<a href="https://github.com/sheinafathurr1/webtrain">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sheinafathurr1&repo=webtrain&hide_border=true&bg_color=0d0d0d&title_color=ffffff&text_color=b3b3b3&icon_color=ffffff&border_color=2b2b2b" width="46%" alt="webtrain" />
-</a>
-
-</div>
+| Project | Stack | Description |
+| :-- | :-- | :-- |
+| [**portfolio**](https://github.com/sheinafathurr1/portfolio) | ![Vue](https://img.shields.io/badge/Vue-000000?style=flat-square&logo=vuedotjs&logoColor=white) | Personal portfolio site |
+| [**e-football**](https://github.com/sheinafathurr1/e-football) | ![PHP](https://img.shields.io/badge/PHP-000000?style=flat-square&logo=php&logoColor=white) | Football match tracker |
+| [**ideahub**](https://github.com/sheinafathurr1/ideahub) | ![Laravel](https://img.shields.io/badge/Laravel-000000?style=flat-square&logo=laravel&logoColor=white) | Idea management app |
+| [**webtrain**](https://github.com/sheinafathurr1/webtrain) | ![Laravel](https://img.shields.io/badge/Laravel-000000?style=flat-square&logo=laravel&logoColor=white) | Web training project |
 
 <br/>
 
@@ -148,8 +135,6 @@ off_duty:  Basketball courts & sneaker hunting
 
 <div align="center">
 
-[![Visitor Count](https://visitcount.itsvg.in/api?id=sheinafathurr1&icon=5&color=10)](https://visitcount.itsvg.in)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:434343,100:0d0d0d&height=100&section=footer" width="100%" alt="footer" />
+![Profile Views](https://komarev.com/ghpvc/?username=sheinafathurr1&style=flat-square&color=000000&label=PROFILE+VIEWS)
 
 </div>
