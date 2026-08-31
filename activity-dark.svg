@@ -3,37 +3,37 @@
 <text x="32" y="42" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#ffffff">Commit Activity</text>
 <line x1="32" y1="58" x2="768" y2="58" stroke="#2b2b2b" stroke-width="1" />
 <line x1="32" y1="174" x2="768" y2="174" stroke="#2b2b2b" stroke-width="1" />
-<text x="62.7" y="162.6" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="11" fill="#9a9a9a" text-anchor="middle">1</text>
-<rect x="47.3" y="170.6" width="30.7" height="3.4" rx="3" fill="#ffffff" fill-opacity="0.37" />
+<text x="62.7" y="163.2" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="11" fill="#9a9a9a" text-anchor="middle">1</text>
+<rect x="47.3" y="171.2" width="30.7" height="2.8" rx="3" fill="#ffffff" fill-opacity="0.37" />
 <text x="62.7" y="194" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#b3b3b3" text-anchor="middle">Sep</text>
 <rect x="108.7" y="174.0" width="30.7" height="0.0" rx="3" fill="#ffffff" fill-opacity="0.35" />
 <text x="124.0" y="194" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#b3b3b3" text-anchor="middle">Oct</text>
-<text x="185.3" y="111.1" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="11" fill="#9a9a9a" text-anchor="middle">16</text>
-<rect x="170.0" y="119.1" width="30.7" height="54.9" rx="3" fill="#ffffff" fill-opacity="0.72" />
+<text x="185.3" y="120.8" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="11" fill="#9a9a9a" text-anchor="middle">16</text>
+<rect x="170.0" y="128.8" width="30.7" height="45.2" rx="3" fill="#ffffff" fill-opacity="0.66" />
 <text x="185.3" y="194" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#b3b3b3" text-anchor="middle">Nov</text>
 <rect x="231.3" y="174.0" width="30.7" height="0.0" rx="3" fill="#ffffff" fill-opacity="0.35" />
 <text x="246.7" y="194" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#b3b3b3" text-anchor="middle">Dec</text>
-<text x="308.0" y="159.1" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="11" fill="#9a9a9a" text-anchor="middle">2</text>
-<rect x="292.7" y="167.1" width="30.7" height="6.9" rx="3" fill="#ffffff" fill-opacity="0.40" />
+<text x="308.0" y="160.4" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="11" fill="#9a9a9a" text-anchor="middle">2</text>
+<rect x="292.7" y="168.4" width="30.7" height="5.6" rx="3" fill="#ffffff" fill-opacity="0.39" />
 <text x="308.0" y="194" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#b3b3b3" text-anchor="middle">Jan</text>
 <rect x="354.0" y="174.0" width="30.7" height="0.0" rx="3" fill="#ffffff" fill-opacity="0.35" />
 <text x="369.3" y="194" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#b3b3b3" text-anchor="middle">Feb</text>
-<text x="430.7" y="148.9" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="11" fill="#9a9a9a" text-anchor="middle">5</text>
-<rect x="415.3" y="156.9" width="30.7" height="17.1" rx="3" fill="#ffffff" fill-opacity="0.47" />
+<text x="430.7" y="151.9" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="11" fill="#9a9a9a" text-anchor="middle">5</text>
+<rect x="415.3" y="159.9" width="30.7" height="14.1" rx="3" fill="#ffffff" fill-opacity="0.45" />
 <text x="430.7" y="194" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#b3b3b3" text-anchor="middle">Mar</text>
-<text x="492.0" y="162.6" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="11" fill="#9a9a9a" text-anchor="middle">1</text>
-<rect x="476.7" y="170.6" width="30.7" height="3.4" rx="3" fill="#ffffff" fill-opacity="0.37" />
+<text x="492.0" y="163.2" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="11" fill="#9a9a9a" text-anchor="middle">1</text>
+<rect x="476.7" y="171.2" width="30.7" height="2.8" rx="3" fill="#ffffff" fill-opacity="0.37" />
 <text x="492.0" y="194" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#b3b3b3" text-anchor="middle">Apr</text>
-<text x="553.3" y="159.1" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="11" fill="#9a9a9a" text-anchor="middle">2</text>
-<rect x="538.0" y="167.1" width="30.7" height="6.9" rx="3" fill="#ffffff" fill-opacity="0.40" />
+<text x="553.3" y="160.4" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="11" fill="#9a9a9a" text-anchor="middle">2</text>
+<rect x="538.0" y="168.4" width="30.7" height="5.6" rx="3" fill="#ffffff" fill-opacity="0.39" />
 <text x="553.3" y="194" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#b3b3b3" text-anchor="middle">May</text>
-<text x="614.7" y="159.1" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="11" fill="#9a9a9a" text-anchor="middle">2</text>
-<rect x="599.3" y="167.1" width="30.7" height="6.9" rx="3" fill="#ffffff" fill-opacity="0.40" />
+<text x="614.7" y="160.4" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="11" fill="#9a9a9a" text-anchor="middle">2</text>
+<rect x="599.3" y="168.4" width="30.7" height="5.6" rx="3" fill="#ffffff" fill-opacity="0.39" />
 <text x="614.7" y="194" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#b3b3b3" text-anchor="middle">Jun</text>
-<text x="676.0" y="131.7" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="11" fill="#9a9a9a" text-anchor="middle">10</text>
-<rect x="660.7" y="139.7" width="30.7" height="34.3" rx="3" fill="#ffffff" fill-opacity="0.58" />
+<text x="676.0" y="137.8" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="11" fill="#9a9a9a" text-anchor="middle">10</text>
+<rect x="660.7" y="145.8" width="30.7" height="28.2" rx="3" fill="#ffffff" fill-opacity="0.54" />
 <text x="676.0" y="194" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#b3b3b3" text-anchor="middle">Jul</text>
-<text x="737.3" y="70.0" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="11" fill="#9a9a9a" text-anchor="middle">28</text>
+<text x="737.3" y="70.0" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="11" fill="#9a9a9a" text-anchor="middle">34</text>
 <rect x="722.0" y="78.0" width="30.7" height="96.0" rx="3" fill="#ffffff" fill-opacity="1.00" />
 <text x="737.3" y="194" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#b3b3b3" text-anchor="middle">Aug</text>
 </svg>
