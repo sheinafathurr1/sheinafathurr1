@@ -33,6 +33,7 @@
 <text x="676.0" y="70.0" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="11" fill="#9a9a9a" text-anchor="middle">34</text>
 <rect x="660.7" y="78.0" width="30.7" height="96.0" rx="3" fill="#ffffff" fill-opacity="1.00" />
 <text x="676.0" y="194" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#b3b3b3" text-anchor="middle">Aug</text>
-<rect x="722.0" y="174.0" width="30.7" height="0.0" rx="3" fill="#ffffff" fill-opacity="0.35" />
+<text x="737.3" y="154.7" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="11" fill="#9a9a9a" text-anchor="middle">4</text>
+<rect x="722.0" y="162.7" width="30.7" height="11.3" rx="3" fill="#ffffff" fill-opacity="0.43" />
 <text x="737.3" y="194" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#b3b3b3" text-anchor="middle">Sep</text>
 </svg>
